@@ -1,10 +1,125 @@
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [125.6, 10.1]
-  },
-  "properties": {
-    "name": "Dinagat Islands"
-  }
-}
+  "type": "FeatureCollection",
+  "features": [
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [47.516231, 14.550072]
+		},
+		"properties": {
+			"name": "Austria",
+			"website": "www.opel.at"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [48.208174, 16.373819]
+		},
+		"properties": {
+			"name": "Austria-Wien",
+			"website": "www.opel-wien.at"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [53.709807, 27.953389]
+		},
+		"properties": {
+			"name": "Belarus",
+			"website": "www.opel.by"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [44.481476, 18.137286]
+		},
+		"properties": {
+			"name": "Bosnia",
+			"website": "www.opel.ba"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [42.733883, 25.485830]
+		},
+		"properties": {
+			"name": "Bulgaria",
+			"website": "www.opel.bg"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [45.100000, 15.200000]
+		},
+		"properties": {
+			"name": "Croatia",
+			"website": "www.opel.hr"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [33.816960, -118.037285]
+		},
+		"properties": {
+			"name": "Cypress",
+			"website": "www.opel.com.cy"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [49.817492, 15.472962]
+		},
+		"properties": {
+			"name": "Czech Republic",
+			"website": "www.opel.cz"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [56.263920, 9.501785]
+		},
+		"properties": {
+			"name": "Denmark",
+			"website": "www.opel.dk"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [58.595272, 25.013607]
+		},
+		"properties": {
+			"name": "Estonia",
+			"website": "www.opel.ee"
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [58.595272, 25.013607]
+		},
+		"properties": {
+			"name": "Estonia",
+			"website": "www.opel.ee"
+		}
+	}
+	]}
