@@ -1,26 +1,15 @@
 {
   "type": "FeatureCollection",
   "features": [
-	{
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [8.858625,47.608907]
-		},
-		"properties": {
-			"name": "Austria",
-			"website": "www.opel.at"
-		}
-	},
-	{
+{
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [16.3100205,48.220778]
 		},
 		"properties": {
-			"name": "Austria-Wien",
-			"website": "www.opel-wien.at"
+			"name": "Austria",
+			"website": ["www.opel-wien.at", "www.opel.at"]
 		}
 	},
 	{
@@ -31,7 +20,7 @@
 		},
 		"properties": {
 			"name": "Belarus",
-			"website": "www.opel.by"
+			"website": ["www.opel.by"]
 		}
 	},
 	{
@@ -42,7 +31,7 @@
 		},
 		"properties": {
 			"name": "Bosnia",
-			"website": "www.opel.ba"
+			"website": ["www.opel.ba"]
 		}
 	},
 	{
@@ -53,7 +42,7 @@
 		},
 		"properties": {
 			"name": "Bulgaria",
-			"website": "www.opel.bg"
+			"website": ["www.opel.bg"]
 		}
 	},
 	{
@@ -64,18 +53,18 @@
 		},
 		"properties": {
 			"name": "Croatia",
-			"website": "www.opel.hr"
+			"website": ["www.opel.hr"]
 		}
 	},
 	{
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [-118.037285,33.816960]
+			"coordinates": [32.8765568,35.169582]
 		},
 		"properties": {
 			"name": "Cypress",
-			"website": "www.opel.com.cy"
+			"website": ["www.opel.com.cy"]
 		}
 	},
 	{
@@ -86,7 +75,7 @@
 		},
 		"properties": {
 			"name": "Czech Republic",
-			"website": "www.opel.cz"
+			"website": ["www.opel.cz"]
 		}
 	},
 	{
@@ -97,7 +86,7 @@
 		},
 		"properties": {
 			"name": "Denmark",
-			"website": "www.opel.dk"
+			"website": ["www.opel.dk"]
 		}
 	},
 	{
@@ -108,18 +97,73 @@
 		},
 		"properties": {
 			"name": "Estonia",
-			"website": "www.opel.ee"
+			"website": ["www.opel.ee"]
 		}
 	},
 	{
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [25.013607,58.595272]
+			"coordinates": [17.1371089,64.6547343]
 		},
 		"properties": {
-			"name": "Estonia",
-			"website": "www.opel.ee"
+			"name": "Finland",
+			"website":[ "www.opel.fi"]
 		}
-	}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [-2.2778699,46.1355194]
+		},
+		"properties": {
+			"name": "France",
+			"website": ["www.opel.fr"]
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [5.9691361,51.0851681]
+		},
+		"properties": {
+			"name": "Germany",
+			"website": ["www.opel.de"]
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [21.5672488,38.2578607]
+		},
+		"properties": {
+			"name": "Greece",
+			"website": ["www.opel.gr"]
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [15.0229552,47.157562]
+		},
+		"properties": {
+			"name": "Hungary",
+			"website": ["www.opel.hu"]
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [15.0229552,47.157562]
+		},
+		"properties": {
+			"name": "Hungary",
+			"website": ["www.opel.hu"]
+		}
+	},
 	]}
