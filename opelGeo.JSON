@@ -27,7 +27,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [53.709807, 27.953389]
+			"coordinates": [ 27.953389,53.709807]
 		},
 		"properties": {
 			"name": "Belarus",
@@ -38,7 +38,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [44.481476, 18.137286]
+			"coordinates": [18.137286,44.481476]
 		},
 		"properties": {
 			"name": "Bosnia",
@@ -49,7 +49,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [42.733883, 25.485830]
+			"coordinates": [25.485830,42.733883]
 		},
 		"properties": {
 			"name": "Bulgaria",
@@ -60,7 +60,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [45.100000, 15.200000]
+			"coordinates": [15.200000,45.100000]
 		},
 		"properties": {
 			"name": "Croatia",
@@ -71,7 +71,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [33.816960, -118.037285]
+			"coordinates": [-118.037285,33.816960]
 		},
 		"properties": {
 			"name": "Cypress",
@@ -82,7 +82,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [49.817492, 15.472962]
+			"coordinates": [15.472962,49.817492]
 		},
 		"properties": {
 			"name": "Czech Republic",
@@ -93,7 +93,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [56.263920, 9.501785]
+			"coordinates": [9.501785,56.263920]
 		},
 		"properties": {
 			"name": "Denmark",
@@ -104,7 +104,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [58.595272, 25.013607]
+			"coordinates": [25.013607,58.595272]
 		},
 		"properties": {
 			"name": "Estonia",
@@ -115,7 +115,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [58.595272, 25.013607]
+			"coordinates": [25.013607,58.595272]
 		},
 		"properties": {
 			"name": "Estonia",
