@@ -5,7 +5,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [47.516231, 14.550072]
+			"coordinates": [47.608907, 8.858625]
 		},
 		"properties": {
 			"name": "Austria",
@@ -16,7 +16,7 @@
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [48.208174, 16.373819]
+			"coordinates": [48.220778, 16.3100205]
 		},
 		"properties": {
 			"name": "Austria-Wien",
