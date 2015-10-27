@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Opel Sites</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 3,
+		disableDefaultUI: true,
+    center: {lat: 22.680839, lng: 15.646327}
+  });
+	
+	var infoWindow = new google.maps.InfoWindow({
+    content: ""
+  });
+  map.data.addListener('click', function(event) {
+		var websites = event.feature.getProperty("website").toString().split(",");
+		websites = websites.join(">Link</a><br/>More than one URL <a href=https://");
+		console.log(websites);
+    infoWindow.setContent(
+			'<div style="line-height:1.35;overflow:hidden;white-space:nowrap;"> Country Name: '+
+											event.feature.getProperty("name") +
+											"<br/>" +
+											event.feature.getProperty("website") +
+											"<br/>URL " + 
+											"<a href=https://" +
+											websites +
+											">" + 
+											"Link</a>" + 
+											"</div>");
+			var anchor = new google.maps.MVCObject();
+			anchor.set("position",event.latLng);
+			infoWindow.open(map,anchor);
+  });
+
+  // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+  map.data.loadGeoJson('https://bdirgo.github.io/opelJSON/opelGeo.JSON');
+}
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlqXioqe8VYAuDqz1x1MAdR2UhPgqKTN4&signed_in=true&callback=initMap"></script>
+  </body>
+</html>
